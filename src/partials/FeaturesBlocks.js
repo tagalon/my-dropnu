@@ -2,7 +2,7 @@ import React from 'react';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative">
+    <section id='/team' className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">The Dropnu Team</h2>
+            <p className="text-xl text-gray-600">Our group consists of high school, undergradutes, and working individuals who all works towards the goal of Dropnu.</p>
           </div>
 
           {/* Items */}
@@ -22,7 +22,7 @@ function FeaturesBlocks() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -32,14 +32,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Rahul Ravella</h4>
+              <p className="text-gray-600 text-center">Cofounder, Student @ UC Berkeley</p>
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2" transform="translate(19.429 20.571)">
@@ -48,14 +49,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Vamsee Ravella</h4>
+              <p className="text-gray-600 text-center">Cofounder, Analyst @ HC2 Holdings Inc</p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeLinecap="square" strokeWidth="2">
@@ -63,14 +65,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-white" d="M19.429 25.143A6.857 6.857 0 0126.286 32v1.189L28 37.143l-1.714.571V40A2.286 2.286 0 0124 42.286h-2.286v2.285M44.571 25.143A6.857 6.857 0 0037.714 32v1.189L36 37.143l1.714.571V40A2.286 2.286 0 0040 42.286h2.286v2.285" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Kavin Pari</h4>
+              <p className="text-gray-600 text-center">Cofounder, Student @ Lebanon Trail HS</p>
             </div>
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g transform="translate(22.857 19.429)" strokeWidth="2">
@@ -80,14 +83,15 @@ function FeaturesBlocks() {
                     <circle className="stroke-current text-blue-300" strokeLinecap="square" cx="12.571" cy="12.571" r="3.429" />
                   </g>
                 </g>
-              </svg>              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Fast Prototyping</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg>               */}
+              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Garren Ferraira</h4>
+              <p className="text-gray-600 text-center">Product Research Lead, Student @ TTU </p>
             </div>
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeLinecap="square" strokeWidth="2">
@@ -95,14 +99,15 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M38.858 26.993l6.397 1.73-4.473 16.549-13.24-3.58" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Harshita Ganipineni</h4>
+              <p className="text-gray-600 text-center">Website LEad, Student @ UT Austin</p>
             </div>
 
             {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              {/* <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
                   <g strokeWidth="2">
@@ -112,9 +117,10 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
                   </g>
                 </g>
-              </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg> */}
+              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Preetham Vankylapati</h4>
+              <p className="text-gray-600 text-center">Outreach Lead, Student @ UT Austin</p>
             </div>
 
           </div>
