@@ -102,7 +102,7 @@ function FeaturesBlocks() {
               </svg> */}
               <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Harshita Ganipineni</h4>
-              <p className="text-gray-600 text-center">Website LEad, Student @ UT Austin</p>
+              <p className="text-gray-600 text-center">Website Lead, Student @ UT Austin</p>
             </div>
 
             {/* 6th item */}
