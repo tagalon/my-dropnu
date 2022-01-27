@@ -32,8 +32,8 @@ function FeaturesBlocks() {
                     <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
                   </g>
                 </g>
-              </svg> */}
-              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              // </svg> */}
+              {/* // <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Rahul Ravella</h4>
               <p className="text-gray-600 text-center">Cofounder, Student @ UC Berkeley</p>
             </div>
@@ -50,7 +50,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Vamsee Ravella</h4>
               <p className="text-gray-600 text-center">Cofounder, Analyst @ HC2 Holdings Inc</p>
             </div>
@@ -66,7 +66,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Kavin Pari</h4>
               <p className="text-gray-600 text-center">Cofounder, Student @ Lebanon Trail HS</p>
             </div>
@@ -84,7 +84,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>               */}
-              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Garren Ferreira</h4>
               <p className="text-gray-600 text-center">Product Research Lead, Student @ TTU </p>
             </div>
@@ -100,7 +100,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Harshita Ganipineni</h4>
               <p className="text-gray-600 text-center">Website Lead, Student @ UT Austin</p>
             </div>
@@ -118,7 +118,7 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg> */}
-              <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+              {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Preetham Vankylapati</h4>
               <p className="text-gray-600 text-center">Outreach Lead, Student @ UT Austin</p>
             </div>
