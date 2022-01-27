@@ -44,7 +44,7 @@ function HeroHome() {
           <div>
             <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
-                <img className="mx-auto" src={require('../images/hero-image.png').default} width="768" height="432" alt="Hero" />
+                {/* <img className="mx-auto" src={require('../images/hero-image.png').default} width="768" height="432" alt="Hero" />
                 <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-ill-a">
@@ -72,7 +72,7 @@ function HeroHome() {
                       <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
                     </g>
                   </g>
-                </svg>
+                </svg> */}
               </div>
              {/* <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
