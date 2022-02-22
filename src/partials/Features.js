@@ -30,7 +30,7 @@ function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Activity Log</h1>
-            <p className="text-xl text-gray-600">Working alongside with professionals from the Berkeley Optometry School and the Dell Medical School at UT Austin, we bring awareness to the next generation and share our journey with those wanting to improve the quality and assuance of healthcare for those in need.</p>
+            <p className="text-xl text-gray-600">Working alongside with professionals from TTUHSC School of Medicine, we bring awareness to the next generation and share our journey with those wanting to improve the quality and assuance of healthcare for those in need.</p>
           </div>
 
           {/* Section content */}
@@ -40,7 +40,7 @@ function Features() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Latest Update</h3>
-                <p className="text-xl text-gray-600">Dropnu is nearing the completion of the eyedropper attachment from utilizing home 3D plastic construction to injection molds for utmost precision alongside medical and AutoCAD professionals as of December .</p>
+                <p className="text-xl text-gray-600">As of February 2022, Dropnu is nearing the completion of the eyedropper attachment as we're adding in threads and further reducing the drop size through our seventh prototype, which is still in development.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -51,7 +51,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Finalized Prototype - December 2021</div>
-                    <div className="text-gray-600">In collaboration with Originex Engineering, we worked with Dr. Shuping Wang where we completely redesigned our tip and successfully reduced the diameter of the drop from 4.0 micrometers to 3.0 micrometers. Now, the Dropnu eyedrop attachment successfully exports less than x2 of the original drop size and we've been able to customize the attachment for other eyebottles.</div>
+                    <div className="text-gray-600">In collaboration with Dr. Shuping Wang, we completely redesigned our tip and successfully reduced the diameter of the drop from 4.0 micrometers to 3.0 micrometers. Now, our sixth prototype successfully exports less than x2 of the original drop size and we've been able to customize the attachment for other eyebottles.</div>
                   </div>
                 </a>
                 <a

@@ -14,7 +14,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">The Dropnu Team</h2>
-            <p className="text-xl text-gray-600">Our group consists of high school, undergradutes, and working individuals who all works towards the goal of Dropnu.</p>
+            <p className="text-xl text-gray-600">Our team consists of undergraduates, engineers, medical students, physicians, and professors who all works towards the goal of Dropnu.</p>
           </div>
 
           {/* Items */}
@@ -67,9 +67,10 @@ function FeaturesBlocks() {
                 </g>
               </svg> */}
               {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Kavin Pari</h4>
-              <p className="text-gray-600 text-center">Cofounder, Student @ Lebanon Trail HS</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Garren Ferreira</h4>
+              <p className="text-gray-600 text-center">Cofounder, Student @ TTU </p>
             </div>
+  
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
@@ -85,8 +86,8 @@ function FeaturesBlocks() {
                 </g>
               </svg>               */}
               {/* <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" /> */}
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Garren Ferreira</h4>
-              <p className="text-gray-600 text-center">Product Research Lead, Student @ TTU </p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Kavin Pari</h4>
+              <p className="text-gray-600 text-center">Product Lead, Student @ UT Austin</p>
             </div>
 
             {/* 5th item */}

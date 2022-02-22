@@ -41,7 +41,7 @@ function Testimonials() {
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <blockquote className="text-xl font-medium mb-4">
-                Waste medication is such a prevalent issue within the healthcare industry and Dropnu's mission is to help alleviate patients' struggles with their current prescription, especially during COVID tinmes. This proposal is meant to debate against critics with the viability of Dropnu.
+                Waste medication is such a prevalent issue within the healthcare industry and Dropnu's mission is to help alleviate patients' struggles with their current prescription, especially during COVID times. This proposal is meant to debate against critics with the viability of Dropnu.
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Please click below to view the proposal</cite>
                 <div className="text-gray-600">
